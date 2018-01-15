@@ -1,0 +1,26 @@
+{
+  "name": "roboto-and-material-icons-fonts",
+  "version": "1.1.0",
+  "description": "A simple package providing the Roboto fontface and Material Icons fontface.",
+  "main": "css/roboto-fontface.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzbaum/roboto-and-material-icons-fonts.git"
+  },
+  "keywords": [
+    "roboto",
+    "font",
+    "fontface",
+    "material",
+    "icons"
+  ],
+  "author": "Lorenz Baum <lorenzbaum@gmx.de> (https://www.lorenz-baum.de/)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/lorenzbaum/roboto-and-material-icons-fonts/issues"
+  },
+  "homepage": "https://github.com/lorenzbaum/roboto-and-material-icons-fonts"
+}

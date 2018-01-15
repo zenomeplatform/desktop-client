@@ -1,0 +1,73 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+  body { font-family: 'Source Sans Pro', sans-serif; }
+
+
+  label {
+    -webkit-user-select:none;
+      position: relative;
+      display: block;
+      margin-top: 5px;
+      padding-left: 25px;
+      cursor: pointer;
+
+      input {
+          position: absolute;
+          opacity: 0;
+      }
+
+      input ~ span.mark,
+      input ~ span.mark::after {
+          position: absolute;
+          display: block;
+          vertical-align: baseline;
+          visibility: visible;
+      }
+
+      input ~ span.mark {
+          top: 0;
+          left: 2px;
+          width: 16px;
+          height: 16px;
+          background: #e6e6e6;
+      }
+
+      input ~ span.mark::after {
+          content: " ";
+          width: 8px;
+          height: 8px;
+          margin: 4px;
+      }
+
+      input[type="radio"] ~ span.mark,
+      input[type="radio"] ~ span.mark::after {
+          border-radius: 50%;
+      }
+      input:hover ~ span.mark::after {
+          border: 1px rgba(0,0,0,0.3) solid;
+      }
+      input:checked ~ span.mark::after {
+          background: #777;
+      }
+  }
+
+
+
+
+
+  pre.head-of-file {
+    white-space: pre-wrap;
+    font-size: 10px;
+  }
+
+  .right.menu {
+    background: white;
+  }
